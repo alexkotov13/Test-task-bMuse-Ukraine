@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Weather" msprop:Generator_TableClassName="WeatherDataTable" msprop:Generator_TableVarName="tableWeather" msprop:Generator_RowChangedName="WeatherRowChanged" msprop:Generator_TablePropName="Weather" msprop:Generator_RowDeletingName="WeatherRowDeleting" msprop:Generator_RowChangingName="WeatherRowChanging" msprop:Generator_RowEvHandlerName="WeatherRowChangeEventHandler" msprop:Generator_RowDeletedName="WeatherRowDeleted" msprop:Generator_RowClassName="WeatherRow" msprop:Generator_UserTableName="Weather" msprop:Generator_RowEvArgName="WeatherRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:string" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataList" msprop:Generator_TableClassName="DataListDataTable" msprop:Generator_TableVarName="tableDataList" msprop:Generator_RowChangedName="DataListRowChanged" msprop:Generator_TablePropName="DataList" msprop:Generator_RowDeletingName="DataListRowDeleting" msprop:Generator_RowChangingName="DataListRowChanging" msprop:Generator_RowEvHandlerName="DataListRowChangeEventHandler" msprop:Generator_RowDeletedName="DataListRowDeleted" msprop:Generator_RowClassName="DataListRow" msprop:Generator_UserTableName="DataList" msprop:Generator_RowEvArgName="DataListRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxTemp" msprop:Generator_ColumnVarNameInTable="columnMaxTemp" msprop:Generator_ColumnPropNameInRow="MaxTemp" msprop:Generator_ColumnPropNameInTable="MaxTempColumn" msprop:Generator_UserColumnName="MaxTemp" type="xs:int" minOccurs="0" />
+              <xs:element name="MinTemp" msprop:Generator_ColumnVarNameInTable="columnMinTemp" msprop:Generator_ColumnPropNameInRow="MinTemp" msprop:Generator_ColumnPropNameInTable="MinTempColumn" msprop:Generator_UserColumnName="MinTemp" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="DataList_Weather" msdata:parent="DataList" msdata:child="Weather" msdata:parentkey="Date" msdata:childkey="Data" msprop:Generator_UserChildTable="Weather" msprop:Generator_ChildPropName="GetWeatherRows" msprop:Generator_UserRelationName="DataList_Weather" msprop:Generator_ParentPropName="DataListRow" msprop:Generator_RelationVarName="relationDataList_Weather" msprop:Generator_UserParentTable="DataList" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,121 @@
+{
+  "month":"february",
+  "data":
+[
+ {
+   "date":"6.01.2018",
+   "max_temp": -1,
+   "min_temp": -1
+ },
+ {
+   "date":"7.01.2018",
+   "max_temp": 4,
+   "min_temp": -3
+ },
+ {
+   "date":"8.01.2018",
+   "max_temp": 5,
+   "min_temp": -2
+ },
+ {
+   "date":"9.01.2018",
+   "max_temp": 6,
+   "min_temp": 2
+ },
+ {
+   "date":"10.01.2018",
+   "max_temp": 6,
+   "min_temp": 0
+ },
+ {
+   "date":"11.01.2018",
+   "max_temp": 5,
+   "min_temp": 1
+ },
+ {
+   "date":"12.01.2018",
+   "max_temp": -1,
+   "min_temp": -3
+ },
+ {
+   "date":"13.01.2018",
+   "max_temp": -1,
+   "min_temp": -2
+ },
+ {
+   "date":"14.01.2018",
+   "max_temp": -1,
+   "min_temp": -3
+ },
+ {
+   "date":"15.01.2018",
+   "max_temp": 1,
+   "min_temp": 0
+ },
+ {
+   "date":"16.01.2018",
+   "max_temp": 3,
+   "min_temp": -7
+ },
+ {
+   "date":"17.01.2018",
+   "max_temp": -2,
+   "min_temp": -10
+ },
+ {
+   "date":"18.01.2018",
+   "max_temp": -2,
+   "min_temp": -5
+ },
+ {
+   "date":"19.01.2018",
+   "max_temp": 3,
+   "min_temp": -6
+ },
+ {
+   "date":"20.01.2018",
+   "max_temp": 4,
+   "min_temp": -6
+ },
+ {
+   "date":"21.01.2018",
+   "max_temp": 3,
+   "min_temp": -5
+ },
+ {
+   "date":"22.01.2018",
+   "max_temp": 5,
+   "min_temp": -5
+ },
+ {
+   "date":"23.01.2018",
+   "max_temp": 6,
+   "min_temp": 0
+ },
+ {
+   "date":"24.01.2018",
+   "max_temp": 10,
+   "min_temp": 1
+ },
+ {
+   "date":"25.01.2018",
+   "max_temp": 6,
+   "min_temp": 2
+ },
+ {
+   "date":"26.01.2018",
+   "max_temp": 7,
+   "min_temp": -1
+ },
+ {
+   "date":"27.01.2018",
+   "max_temp": 5,
+   "min_temp": -2
+ },
+ {
+   "date":"28.01.2018",
+   "max_temp": 7,
+   "min_temp": -1
+ }
+]
+}
